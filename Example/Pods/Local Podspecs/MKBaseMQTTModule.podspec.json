@@ -1,0 +1,32 @@
+{
+  "name": "MKBaseMQTTModule",
+  "version": "0.1.0",
+  "summary": "A short description of MKBaseMQTTModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/aadyx2007@163.com/MKBaseMQTTModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aadyx2007@163.com": "aadyx2007@163.com"
+  },
+  "source": {
+    "git": "https://github.com/aadyx2007@163.com/MKBaseMQTTModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "MKBaseMQTTModule/Classes/**/*",
+  "resource_bundles": {
+    "MKBaseMQTTModule": [
+      "MKBaseMQTTModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "MQTTClient": [
+
+    ]
+  }
+}

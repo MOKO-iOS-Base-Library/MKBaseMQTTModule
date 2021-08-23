@@ -1,0 +1,30 @@
+PODS:
+  - MKBaseMQTTModule (0.1.0):
+    - MQTTClient
+  - MQTTClient (0.15.3):
+    - MQTTClient/Core (= 0.15.3)
+  - MQTTClient/Core (0.15.3):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.3):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.3)
+
+DEPENDENCIES:
+  - MKBaseMQTTModule (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MQTTClient
+
+EXTERNAL SOURCES:
+  MKBaseMQTTModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MKBaseMQTTModule: 8197af7bc7d3a1a0be7930b909432a574522fb0d
+  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+
+PODFILE CHECKSUM: d12dda0126ef0e5d666533b35df1d2aab9f40ddc
+
+COCOAPODS: 1.10.0.rc.1
