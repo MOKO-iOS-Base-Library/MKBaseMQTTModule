@@ -31,10 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'MKBaseMQTTModule/Classes/**/*'
-  
-  s.resource_bundles = {
-    'MKBaseMQTTModule' => ['MKBaseMQTTModule/Assets/*.png']
-  }
 
   s.dependency 'MQTTClient'
   
