@@ -13,6 +13,7 @@
 #import "MKMQTTServerManager.h"
 #import "MKMQTTServerSDKAdopter.h"
 #import "MKMQTTServerSDKDefines.h"
+#import "MKNetworkManager.h"
 
 FOUNDATION_EXPORT double MKBaseMQTTModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char MKBaseMQTTModuleVersionString[];

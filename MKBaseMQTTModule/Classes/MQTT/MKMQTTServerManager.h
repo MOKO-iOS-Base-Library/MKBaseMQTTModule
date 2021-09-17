@@ -79,15 +79,10 @@ typedef NS_ENUM(NSInteger, MKMQTTSessionManagerState) {
 
 + (MKMQTTServerManager *)shared;
 
-/// 销毁单例
 + (void)singleDealloc;
 
-/// 将一个满足MKBLECentralManagerProtocol的对象加入到管理列表
-/// @param dataManager MKBLECentralManagerProtocol
 - (void)loadDataManager:(nonnull id <MKMQTTServerProtocol>)dataManager;
 
-/// 将满足MKBLECentralManagerProtocol的对象移除管理列表
-/// @param dataManager MKBLECentralManagerProtocol的对象
 - (BOOL)removeDataManager:(nonnull id <MKMQTTServerProtocol>)dataManager;
 
 /** Connects to the MQTT broker and stores the parameters for subsequent reconnects
@@ -130,9 +125,7 @@ typedef NS_ENUM(NSInteger, MKMQTTSessionManagerState) {
     protocolLevel:(MQTTProtocolVersion)protocolLevel
    connectHandler:(MQTTConnectHandler)connectHandler;
 
-/**
- Disconnect
- */
+/// Disconnect
 - (void)disconnect;
 
 /// Subscribe the topic
@@ -140,15 +133,12 @@ typedef NS_ENUM(NSInteger, MKMQTTSessionManagerState) {
 /// @param qosLevel specifies the Quality of Service for the publish. qos can be 0, 1, or 2.
 - (void)subscriptions:(NSArray <NSString *>*)topicList qosLevel:(MQTTQosLevel)qosLevel;
 
-/**
- Unsubscribe the topic
- 
- @param topicList topicList
- */
+/// Unsubscribe the topic.
+/// @param topicList topicList
 - (void)unsubscriptions:(NSArray <NSString *>*)topicList;
 
 /**
- 发送json格式的数据
+ Send Data.
 
  @param data data
  @param topic topic
@@ -163,7 +153,7 @@ typedef NS_ENUM(NSInteger, MKMQTTSessionManagerState) {
      failedBlock:(void (^)(NSError *error))failedBlock;
 
 /**
- 发送NSData类型的数据
+ Send Data.
 
  @param data data
  @param topic topic
