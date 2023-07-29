@@ -14,14 +14,14 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - MKBaseMQTTModule (0.0.4):
-    - MKBaseMQTTModule/MQTT (= 0.0.4)
-    - MKBaseMQTTModule/MQTTClient (= 0.0.4)
-    - MKBaseMQTTModule/NetworkManager (= 0.0.4)
-  - MKBaseMQTTModule/MQTT (0.0.4):
+  - MKBaseMQTTModule (0.0.5):
+    - MKBaseMQTTModule/MQTT (= 0.0.5)
+    - MKBaseMQTTModule/MQTTClient (= 0.0.5)
+    - MKBaseMQTTModule/NetworkManager (= 0.0.5)
+  - MKBaseMQTTModule/MQTT (0.0.5):
     - MKBaseMQTTModule/MQTTClient
-  - MKBaseMQTTModule/MQTTClient (0.0.4)
-  - MKBaseMQTTModule/NetworkManager (0.0.4):
+  - MKBaseMQTTModule/MQTTClient (0.0.5)
+  - MKBaseMQTTModule/NetworkManager (0.0.5):
     - AFNetworking
 
 DEPENDENCIES:
@@ -37,7 +37,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  MKBaseMQTTModule: cad13f8d31cd3439f7774f65329aa1610cb2bd9a
+  MKBaseMQTTModule: c550f051218eb970189febb2186e39e3e5e66b85
 
 PODFILE CHECKSUM: d12dda0126ef0e5d666533b35df1d2aab9f40ddc
 
