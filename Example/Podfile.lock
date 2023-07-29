@@ -14,21 +14,15 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - MKBaseMQTTModule (0.0.3):
-    - MKBaseMQTTModule/MQTT (= 0.0.3)
-    - MKBaseMQTTModule/NetworkManager (= 0.0.3)
-  - MKBaseMQTTModule/MQTT (0.0.3):
-    - MQTTClient
-  - MKBaseMQTTModule/NetworkManager (0.0.3):
+  - MKBaseMQTTModule (0.0.4):
+    - MKBaseMQTTModule/MQTT (= 0.0.4)
+    - MKBaseMQTTModule/MQTTClient (= 0.0.4)
+    - MKBaseMQTTModule/NetworkManager (= 0.0.4)
+  - MKBaseMQTTModule/MQTT (0.0.4):
+    - MKBaseMQTTModule/MQTTClient
+  - MKBaseMQTTModule/MQTTClient (0.0.4)
+  - MKBaseMQTTModule/NetworkManager (0.0.4):
     - AFNetworking
-  - MQTTClient (0.15.3):
-    - MQTTClient/Core (= 0.15.3)
-  - MQTTClient/Core (0.15.3):
-    - MQTTClient/Manager
-    - MQTTClient/Min
-  - MQTTClient/Manager (0.15.3):
-    - MQTTClient/Min
-  - MQTTClient/Min (0.15.3)
 
 DEPENDENCIES:
   - MKBaseMQTTModule (from `../`)
@@ -36,17 +30,15 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-    - MQTTClient
 
 EXTERNAL SOURCES:
   MKBaseMQTTModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
-  MKBaseMQTTModule: b3a5c4776b60d5c395da4fd7019fc1cf64ec48a6
-  MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  MKBaseMQTTModule: cad13f8d31cd3439f7774f65329aa1610cb2bd9a
 
 PODFILE CHECKSUM: d12dda0126ef0e5d666533b35df1d2aab9f40ddc
 
-COCOAPODS: 1.10.0.rc.1
+COCOAPODS: 1.12.1

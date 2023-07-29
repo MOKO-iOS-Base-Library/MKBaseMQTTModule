@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKBaseMQTTModule'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of MKBaseMQTTModule.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,11 @@ TODO: Add long description of the pod here.
   s.subspec 'MQTT' do |ss|
     ss.source_files = 'MKBaseMQTTModule/Classes/MQTT/**'
     
-    ss.dependency 'MQTTClient'
+    ss.dependency 'MKBaseMQTTModule/MQTTClient'
+  end
+  
+  s.subspec 'MQTTClient' do |ss|
+    ss.source_files = 'MKBaseMQTTModule/Classes/MQTTClient/**'
   end
   
   s.subspec 'NetworkManager' do |ss|
