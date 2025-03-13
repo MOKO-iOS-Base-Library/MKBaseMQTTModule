@@ -1,44 +1,23 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
-    - AFNetworking/NSURLSession
-  - MKBaseMQTTModule (0.0.5):
-    - MKBaseMQTTModule/MQTT (= 0.0.5)
-    - MKBaseMQTTModule/MQTTClient (= 0.0.5)
-    - MKBaseMQTTModule/NetworkManager (= 0.0.5)
-  - MKBaseMQTTModule/MQTT (0.0.5):
+  - MKBaseMQTTModule (0.0.8):
+    - MKBaseMQTTModule/MQTT (= 0.0.8)
+    - MKBaseMQTTModule/MQTTClient (= 0.0.8)
+    - MKBaseMQTTModule/NetworkManager (= 0.0.8)
+  - MKBaseMQTTModule/MQTT (0.0.8):
     - MKBaseMQTTModule/MQTTClient
-  - MKBaseMQTTModule/MQTTClient (0.0.5)
-  - MKBaseMQTTModule/NetworkManager (0.0.5):
-    - AFNetworking
+  - MKBaseMQTTModule/MQTTClient (0.0.8)
+  - MKBaseMQTTModule/NetworkManager (0.0.8)
 
 DEPENDENCIES:
   - MKBaseMQTTModule (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - AFNetworking
 
 EXTERNAL SOURCES:
   MKBaseMQTTModule:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  MKBaseMQTTModule: c550f051218eb970189febb2186e39e3e5e66b85
+  MKBaseMQTTModule: 87e58a22f060d43f80535f36ee3203788fe11fbb
 
 PODFILE CHECKSUM: d12dda0126ef0e5d666533b35df1d2aab9f40ddc
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.16.1

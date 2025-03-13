@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MKBaseMQTTModule'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'A short description of MKBaseMQTTModule.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/MOKO-iOS-Base-Library/MKBaseMQTTModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '14.0'
 
   s.subspec 'MQTT' do |ss|
     ss.source_files = 'MKBaseMQTTModule/Classes/MQTT/**'
@@ -42,8 +42,6 @@ TODO: Add long description of the pod here.
   
   s.subspec 'NetworkManager' do |ss|
     ss.source_files = 'MKBaseMQTTModule/Classes/NetworkManager/**'
-    
-    ss.dependency 'AFNetworking'
   end
 
   
