@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <MKBaseMQTTModule/MQTTSessionManager.h>
+#import "MQTTSessionManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
